@@ -1,0 +1,31 @@
+Project
+  - method_fun:  folder_for method
+    -high
+      -preg_fun.py：penaliezd regression for linear
+      -semi_fun.py：penalized regresion for partial linear
+      -tuning.py: HBIC for beta/ AIC for h
+    -low
+      -semi_func
+  - simulation_fun: folder_for simulationdata
+    -simhigh
+      -gendata.py
+      -simulation.py
+      -readresult.py
+    -simlow
+      -gendata.py
+      -simulation.py
+      -readresult.py
+    -realdata
+  - results: folder_for results
+    -simhigh
+    -simlow
+    -realhigh
+    -reallow
+  - simhigh: file_script1 = simhigh0-4+simhig_summary
+    -simhigh0-4分开做的
+    -simhig_summary: 汇总结果
+  - simhigh_da: file_script1-1
+  - simhigh_xiao: file_script1-2
+  - simlow: file_script2
+  - realhigh: file_script3
+  - reallow: file_script4
